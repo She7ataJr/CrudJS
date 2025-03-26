@@ -44,13 +44,16 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="showing">
+                <!-- <label >Search:</label> -->
+                <input  onkeyup="search(this.value)" type="text" class="search-text form-control my-3" placeholder="Searching.....">
+                <div class="show-date">
                     <table class="table table-stripped">
                         <thead>
                             <th>Product Name</th>
                             <th>Seller</th>
                             <th>Price</th>
-
+                            <th>Delete</th>
+                            <th>Update</th>
                         </thead>
                         <tbody id="tBody">
 
